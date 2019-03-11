@@ -289,6 +289,8 @@ def findAndAssertDefinitionsFOPC(object,names):
 # Starting with an object, pull off its prepositions and build FOPC statements that link their objects
 # to the original object. We hand in the source of the prepositions (it could be either the verb or the
 # noun that it dominates) and the object that it will modify.
+
+#source is a token, object is a
 def findAndAttachPrepObjectsFOPC(source,object,names):
     print(Ylw+"Checking pObjs of"+st,source.lemma_,Ylw+"to modify"+st, object.lemma_)
 
